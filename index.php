@@ -18,13 +18,12 @@
       "Scopri quali misure adottiamo per garantire protezione e sicurezza alle tue informazioni personali, lasciando a te il controllo."
     ],
     "Perché il mio account è associato a un paese?" => [
-      "Il tuo account è associato a un paese (o territorio) nei Termini di servizio per poter stabilire due cose:" =>[
-        "La società consociata Google che offre i servizi, tratta le tue informazioni ed è responsabile del rispetto delle leggi sulla privacy vigenti. Generalmente Google offre i propri servizi per i consumatori tramite una delle due società seguenti:" => [
-          "Google Ireland Limited, se gli utenti sono residenti nello Spazio economico europeo (paesi dell'Unione europea, oltre a Islanda, Liechtenstein e Norvegia) o in Svizzera.",
-          "Google LLC, con sede negli Stati Uniti, per il resto del mondo."
-        ],
-        "La versione dei termini che regola il nostro rapporto, che può variare in base alle leggi locali."
-      ],
+      "Il tuo account è associato a un paese (o territorio) nei Termini di servizio per poter stabilire due cose:",
+        "1. La società consociata Google che offre i servizi, tratta le tue informazioni ed è responsabile del rispetto delle leggi sulla privacy vigenti. Generalmente Google offre i propri servizi per i consumatori tramite una delle due società seguenti:",
+        "a.  Google Ireland Limited, se gli utenti sono residenti nello Spazio economico europeo (paesi dell'Unione europea, oltre a Islanda, Liechtenstein e Norvegia) o in Svizzera.",
+        "b. Google LLC, con sede negli Stati Uniti, per il resto del mondo.",
+        "2. La versione dei termini che regola il nostro rapporto, che può variare in base alle leggi locali.",
+
       "Tieni presente che i servizi Google sono fondamentalmente gli stessi a prescindere dalla società consociata che li offre o dal paese a cui è associato il tuo account.",
       "Stabilire il paese associato al tuo account",
       "Quando crei un nuovo Account Google, lo associamo a un paese in base a dove è stato creato. Per quanto riguarda gli account creati almeno un anno fa, usiamo il paese da cui accedi solitamente ai servizi Google, in genere i servizi in cui hai trascorso più tempo nell'ultimo anno.",
@@ -74,11 +73,7 @@
                       <h2><?php echo $key ?></h2>
                       <ul>
                           <?php foreach ($info as $key => $value) { ?>
-                            <?php if ($key == "Il tuo account è associato a un paese (o territorio) nei Termini di servizio per poter stabilire due cose:") { ?>
-                                  <h2><?php echo "string"; ?></h2>
-                            <?php } else { ?>
                               <li><?php echo $value; ?></li>
-                            <?php } ?>
                           <?php } ?>
                       </ul>
                 <?php } else {?>
@@ -94,6 +89,28 @@
           </li>
         </ul>
       </div>
+
+      <footer>
+        <div class="footer-cont">
+          <div class="footer-option1">
+            <ul>
+              <li><a href="#">Google</a></li>
+              <li><a href="#">Tutto su google</a></li>
+              <li><a href="#">Privacy</a> </li>
+              <li><a href="#">Termini </a></li>
+            </ul>
+          </div>
+          <div class="footer-option2">
+              <select class="" name="">
+                <option value="">Italian</option>
+                <option value="">English</option>
+              </select>
+          </div>
+
+        </div>
+      </footer>
+
+
   </div>
 
 </body>

@@ -58,7 +58,7 @@ header{
 }
 
 .jumbo{
-  width: 80%;
+  width: 40%;
   margin: auto;
 }
 .jumbo h2 {
@@ -66,4 +66,29 @@ header{
 }
 .jumbo ul li {
   margin-bottom: 20px;
+}
+
+footer{
+  width: 100%;
+  height: 30px;
+  background-color: lightgray;
+}
+
+.footer-cont{
+  width: 40%;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-option1 ul{
+
+  display: flex;
+  align-items: center;
+}
+
+.footer-option1 ul li{
+  padding-right: 10px;
 }
