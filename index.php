@@ -71,7 +71,16 @@
           <li>
             <?php foreach ($schede as $key => $info) { ?>
                 <?php if ($key == "Perché il mio account è associato a un paese?") {?>
-
+                      <h2><?php echo $key ?></h2>
+                      <ul>
+                          <?php foreach ($info as $key => $value) { ?>
+                            <?php if ($key == "Il tuo account è associato a un paese (o territorio) nei Termini di servizio per poter stabilire due cose:") { ?>
+                                  <h2><?php echo "string"; ?></h2>
+                            <?php } else { ?>
+                              <li><?php echo $value; ?></li>
+                            <?php } ?>
+                          <?php } ?>
+                      </ul>
                 <?php } else {?>
                   <h2><?php echo $key ?></h2>
                   <ul>
