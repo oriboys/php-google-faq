@@ -1,3 +1,5 @@
+
+<?php
 *{
   margin: 0;
   padding: 0;
@@ -16,6 +18,13 @@ footer{
 .footer-top{
   width: 100%;
   height: 50px;
+  display: flex;
+  justify-content: center;
+  background-color: red;
+}
+
+.footer-top img{
+  height: 40px;
 }
 
 .footer-bottom{
@@ -27,3 +36,10 @@ footer{
   width: 80%;
   margin: auto;
 }
+
+ul li {
+  padding-left: 50px;
+}
+
+
+ ?>
