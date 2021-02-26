@@ -70,7 +70,17 @@
         <ul>
           <li>
             <?php foreach ($schede as $key => $info) { ?>
+                <?php if ($key == "Perché il mio account è associato a un paese?") {?>
 
+                <?php } else {?>
+                  <h2><?php echo $key ?></h2>
+                  <ul>
+                    <?php foreach ($info as $key) {?>
+                      <li><?php echo $key ?></li>
+                    <?php } ?>
+
+                  </ul>
+                <?php } ?>
             <?php } ?>
           </li>
         </ul>

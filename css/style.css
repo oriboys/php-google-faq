@@ -61,3 +61,9 @@ header{
   width: 80%;
   margin: auto;
 }
+.jumbo h2 {
+  margin-bottom: 20px;
+}
+.jumbo ul li {
+  margin-bottom: 20px;
+}
